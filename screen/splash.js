@@ -1,6 +1,6 @@
 import React from 'react'
 import { Component } from 'react'
-import { View, Text } from 'react-native'
+import { View, Text , Image } from 'react-native'
 
 class splash extends Component {
     componentDidMount() {
@@ -11,7 +11,11 @@ class splash extends Component {
     render() {
         return (
             <View style={{backgroundColor:'#fff',flex:1 , justifyContent:'center' , alignItems:'center'}}>
-                <Text>here will be the logo of the screen</Text>
+                <Image
+                    style={{ }}
+                    source={require('../assets/images/logo.jpeg')}
+                >
+                </Image>
             </View>
         )
     }
