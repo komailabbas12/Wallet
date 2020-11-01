@@ -33,7 +33,7 @@ export default function addtocard({ navigation }) {
                     <TextInput
                         placeholder="Cardholder Name"
                     />
-                    <Text>Name</Text>
+                    <Text style={{fontFamily:'manr'}}>Name</Text>
                 </View>
 
 
@@ -41,24 +41,26 @@ export default function addtocard({ navigation }) {
                     <TextInput
                         placeholder="Card Number"
                     />
-                    <Text>4470 8790 2087 1234</Text>
+                    <Text style={{fontFamily:'manr'}}>4470 8790 2087 1234</Text>
                 </View>
 
                 <View style={{ flexDirection: 'row', justifyContent: 'space-evenly', marginTop: '5%', }}>
-                    <View style={{ borderBottomWidth: 1, borderBottomColor: '#C4C4C4', width: '40%', }}>
-                        <Text style={{ color: 'gray' }}>Exp.Date</Text>
+                    <View style={{ borderBottomWidth: 1, borderBottomColor: '#C4C4C4', width: '45%', }}>
+                        <Text style={{ color: 'gray',fontFamily:'manr' }}>Exp.Date</Text>
                         <TextInput
+                           style={{textAlign:'center'}}
                             placeholder="8/22" />
                     </View>
-                    <View style={{ borderBottomWidth: 1, borderBottomColor: 'gray', width: '40%', }}>
-                        <Text style={{ color: 'gray' }}>CVV</Text>
+                    <View style={{ borderBottomWidth: 1, borderBottomColor: 'gray', width: '50%', }}>
+                        <Text style={{ color: 'gray' ,fontFamily:'manr' }}>CVV</Text>
                         <TextInput
+                            style={{textAlign:'center'}}
                             placeholder="876" />
                     </View>
                 </View>
 
                 <View style={{ borderBottomWidth: 1, borderBottomColor: 'gray', padding: '1%', marginTop: '5%', }}>
-                    <Text style={{ color: 'gray' }}>Zip Code</Text>
+                    <Text style={{ color: 'gray' ,fontFamily:'manr'}}>Zip Code</Text>
                     <TextInput
                         placeholder=""
                     />
@@ -66,7 +68,7 @@ export default function addtocard({ navigation }) {
 
                 <View style={{ backgroundColor: '#000000', borderWidth: 1, marginTop: '10%', marginLeft: '5%', marginRight: '5%', alignItems: 'center', elevation: 3, padding: 10, borderRadius: 5, }}>
                     <TouchableOpacity>
-                        <Text style={{ color: 'white' }}>Save</Text>
+                        <Text style={{ color: 'white',fontFamily:'manr' }}>Save</Text>
                     </TouchableOpacity>
                 </View>
 

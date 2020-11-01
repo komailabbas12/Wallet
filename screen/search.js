@@ -18,48 +18,48 @@ export default function search({ navigation }) {
                 <TouchableOpacity 
                 onPress={()=> navigation.navigate('stock')}
                 style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
-                    <Text style={{ fontSize: 24 }}>Stock1</Text>
+                    <Text style={{ fontSize: 24 ,fontFamily:'manr' ,}}>Stock1</Text>
                     <View style={{ justifyContent: 'center' }}>
-                        <Text style={{ color: '#FF0000', fontSize: 20, }}>10%</Text>
+                        <Text style={{ color: '#FF0000', fontSize: 20,fontFamily:'manr' }}>10%</Text>
                     </View>
 
                 </TouchableOpacity>
 
                 <View style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
-                    <Text style={{ fontSize: 24 }}>Stock2</Text>
+                    <Text style={{ fontSize: 24 ,fontFamily:'manr'}}>Stock2</Text>
                     <View style={{ justifyContent: 'center' }}>
-                        <Text style={{ color: '#63E000', fontSize: 20, }}>10%</Text>
+                        <Text style={{ color: '#63E000', fontSize: 20,fontFamily:'manr' }}>10%</Text>
                     </View>
                 </View>
 
                 <View style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
-                    <Text style={{ fontSize: 24 }}>Stock1</Text>
+                    <Text style={{ fontSize: 24 ,fontFamily:'manr'}}>Stock1</Text>
                     <View style={{ justifyContent: 'center' }}>
-                        <Text style={{ color: '#FF0000', fontSize: 20, }}>10%</Text>
-                    </View>
-
-                </View>
-
-                <View style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
-                    <Text style={{ fontSize: 24 }}>Stock1</Text>
-                    <View style={{ justifyContent: 'center' }}>
-                        <Text style={{ color: '#FF0000', fontSize: 20, }}>10%</Text>
+                        <Text style={{ color: '#FF0000', fontSize: 20,fontFamily:'manr' }}>10%</Text>
                     </View>
 
                 </View>
 
                 <View style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
-                    <Text style={{ fontSize: 24 }}>Stock1</Text>
+                    <Text style={{ fontSize: 24,fontFamily:'manr' }}>Stock1</Text>
                     <View style={{ justifyContent: 'center' }}>
-                        <Text style={{ color: '#FF0000', fontSize: 20, }}>10%</Text>
+                        <Text style={{ color: '#FF0000', fontSize: 20, fontFamily:'manr'}}>10%</Text>
                     </View>
 
                 </View>
 
                 <View style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
-                    <Text style={{ fontSize: 24 }}>Stock2</Text>
+                    <Text style={{ fontSize: 24 ,fontFamily:'manr'}}>Stock1</Text>
                     <View style={{ justifyContent: 'center' }}>
-                        <Text style={{ color: '#63E000', fontSize: 20, }}>10%</Text>
+                        <Text style={{ color: '#FF0000', fontSize: 20,fontFamily:'manr' }}>10%</Text>
+                    </View>
+
+                </View>
+
+                <View style={{ marginTop: '10%', flexDirection: 'row', justifyContent: 'space-between', marginRight: '5%', }}>
+                    <Text style={{ fontSize: 24,fontFamily:'manr' }}>Stock2</Text>
+                    <View style={{ justifyContent: 'center' }}>
+                        <Text style={{ color: '#63E000', fontSize: 20,fontFamily:'manr' }}>10%</Text>
                     </View>
                 </View>
 

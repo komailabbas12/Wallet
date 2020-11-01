@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
+import {View } from 'react-native'
 import AntDesign from 'react-native-vector-icons/dist/AntDesign';
 import Feather from 'react-native-vector-icons/dist/Feather';
 
@@ -56,15 +56,19 @@ const searchStack1 = () => (
 
 
 const tab1 = () => (
+  <View style={{backgroundColor:"#fff", flex:1 }}>
+
+  
   <Tab.Navigator
+  backgroundColor='#fff'
     tabBarOptions={{
       activeTintColor: "#000000",
       inactiveTintColor: 'gray',
 
       style: {
         backgroundColor: '#FFFFFF',
-        marginLeft: '15%',
-        marginRight: '15%',
+        marginLeft: '7%',
+        marginRight: '7%',
         borderRadius: 20,
         elevation: 10,
       }
@@ -122,10 +126,14 @@ const tab1 = () => (
 
 
   </Tab.Navigator>
+  </View>
 );
 
 export default function App() {
   return (
+   
+
+    
     <NavigationContainer>
       <stackNav.Navigator
         headerMode='none'
@@ -144,6 +152,7 @@ export default function App() {
         />
       </stackNav.Navigator>
     </NavigationContainer>
+    
 
   )
 }

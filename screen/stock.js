@@ -43,8 +43,8 @@ export default function stock({ navigation }) {
                         <View style={{ backgroundColor: '#FFFFFF', paddingBottom: '5%', borderRadius: 5, }}>
 
                             <View style={{ marginLeft: 20, marginRight: 20, marginTop: 20, flexDirection: 'row', justifyContent: 'space-between', }}>
-                                <Text style={{fontSize: 24}}>Buy</Text>
-                                <Text style={{fontSize: 30}}>$0</Text>
+                                <Text style={{fontSize: 24 , fontFamily:'manr'}}>Buy</Text>
+                                <Text style={{fontSize: 30 , fontFamily:'manr'}}>$0</Text>
                             </View>
 
 
@@ -53,17 +53,17 @@ export default function stock({ navigation }) {
                                     style={{}}
                                     onPress={()=> onPress1()}
                                 >
-                                    <Text style={{ borderWidth: 1, width: 50, height: 50, borderRadius: 25, borderColor: 'black', textAlign: "center", paddingTop: 5, fontSize: 25, }}>
+                                    <Text style={{fontFamily:'manr', borderWidth: 1, width: 50, height: 50, borderRadius: 25, borderColor: 'black', textAlign: "center", paddingTop: 5, fontSize: 25, }}>
                                         -
                                     </Text>
                                 </TouchableOpacity>
-                                <Text style={{ fontSize: 72, color: 'black', fontWeight: "bold", textDecorationLine: 'underline', textDecorationColor: 'black', padding: 20, fontSize: 25,}}>
+                                <Text style={{fontFamily:'manr', fontSize: 72, color: 'black', fontWeight: "bold", textDecorationLine: 'underline', textDecorationColor: 'black', padding: 20, fontSize: 25,}}>
                                     {count}
                                 </Text>
                                 <TouchableOpacity  
                                     onPress={()=> onPress()}
                                 >
-                                    <Text style={{ borderWidth: 1, width: 50, height: 50, borderRadius: 25, borderColor: 'black', textAlign: "center", paddingTop: 5, marginLeft: 10, fontSize: 25, }}>
+                                    <Text style={{ fontFamily:'manr',borderWidth: 1, width: 50, height: 50, borderRadius: 25, borderColor: 'black', textAlign: "center", paddingTop: 5, marginLeft: 10, fontSize: 25, }}>
                                         +
                                     </Text>
                                 </TouchableOpacity>
@@ -72,7 +72,7 @@ export default function stock({ navigation }) {
                                 <TouchableOpacity
                                     //onPress={() => navigation.navigate('stock')} 
                                 >
-                                    <Text style={{color: 'white', textAlign: 'center', padding: 10,}}>Buy</Text>
+                                    <Text style={{fontFamily:'manr',color: 'white', textAlign: 'center', padding: 10,}}>Buy</Text>
                                 </TouchableOpacity>
                             </View>
 
@@ -102,9 +102,9 @@ export default function stock({ navigation }) {
                 </Text>
             </View>
             <View style={{ marginLeft: 20, }}>
-                <Text style={{ fontWeight: 'bold', fontSize: 24, marginTop: 10, }}>Stock 1</Text>
-                <Text style={{ fontWeight: 'bold', fontSize: 36, marginTop: 20, }}>$173</Text>
-                <Text style={{ marginTop: 13, }}>Analytics</Text>
+                <Text style={{ fontWeight: 'bold', fontSize: 24, marginTop: 10,fontFamily:'manr' }}>Stock 1</Text>
+                <Text style={{ fontWeight: 'bold', fontSize: 36, marginTop: 20,fontFamily:'manr' }}>$173</Text>
+                <Text style={{ marginTop: 13, fontFamily:'manr'}}>Analytics</Text>
             </View>
 
             <LineChart
@@ -162,7 +162,7 @@ export default function stock({ navigation }) {
                         onPress={() => setModalOpen(true)}
                         style={{}}
                     >
-                        <Text style={{ color: 'white', width: '100%', }}>Buy</Text>
+                        <Text style={{fontFamily:'manr', color: 'white', width: '100%', }}>Buy</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -171,7 +171,7 @@ export default function stock({ navigation }) {
                         onPress={() => setModalOpen(true)}
                         style={{}}
                     >
-                        <Text style={{ color: 'white', width:'100%',}}>Sell</Text>
+                        <Text style={{ color: 'white', width:'100%',fontFamily:'manr'}}>Sell</Text>
                     </TouchableOpacity>
                 </View>
             </View>

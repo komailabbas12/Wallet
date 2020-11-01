@@ -25,9 +25,9 @@ export default function login({navigation}) {
 
                 <TouchableOpacity
                     onPress={()=>navigation.navigate('home')}
-                    style={{ borderRadius:4 , padding:12 , backgroundColor:"#000000", fontWeight:'700' , fontSize:14 , marginTop:'6%'}}
+                    style={{elevation:30,overflow:'visible', borderRadius:4 , padding:12 , backgroundColor:"#000000", fontWeight:'700' , fontSize:14 , marginTop:'8%'}}
                 >
-                    <Text style={{textAlign:'center' , color:'#fff' ,fontFamily:'manr'}}>Login</Text>
+                    <Text style={{textAlign:'center' , color:'#fff' ,fontFamily:'manr' , }}>Login</Text>
                 </TouchableOpacity>
                 <View style={{marginTop:'7%'}}>
                     <Text style={{textAlign:'center' , fontWeight:'bold' , fontSize:20,fontFamily:'manr'}}>OR</Text>
@@ -48,7 +48,8 @@ export default function login({navigation}) {
                         style={{marginTop:8 , borderBottomWidth:1 , borderColor:"#C4CACC"}}
                     />
                     <TouchableOpacity
-                    style={{ borderRadius:4 , padding:12 , backgroundColor:"#000000", fontWeight:'700' , fontSize:14 , marginTop:'6%'}}
+
+                    style={{marginBottom:"12%",elevation:20, borderRadius:4 , padding:12 , backgroundColor:"#000000", fontWeight:'700' , fontSize:14 , marginTop:'6%'}}
                 >
                     <Text style={{textAlign:'center' , color:'#fff' ,fontFamily:'manr'}}>Signup</Text>
                 </TouchableOpacity>
@@ -68,6 +69,6 @@ const styles = StyleSheet.create({
         paddingTop:47,
         paddingLeft:17,
         paddingRight:17,
-        paddingBottom:'12%'
+       
     }
 })
